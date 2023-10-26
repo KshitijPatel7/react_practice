@@ -20,10 +20,10 @@ export default function About() {
                           accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde
                           aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!
                       </p>
-                      {/* <p className="mt-4 text-gray-600">
+                      <p className="mt-4 text-gray-600">
                           Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
                           Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.
-                      </p> */}
+                      </p>
                   </div>
               </div>
           </div>
