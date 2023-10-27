@@ -2,16 +2,16 @@ import React, { useState } from 'react'
 import { useLoaderData } from 'react-router-dom'
 
 const Github = () => {
-  const dataa = useLoaderData()
-  const [data, setData] = useState([])
-  useEffect(() => {
-    fetch('https://api.github.com/users/kshitijpatel7')
-    .then(response => response.json())
-    .then(data => {
-      console.log(data);
-      setData(data);
-    })
-  }, [])
+  const data = useLoaderData()
+  // const [data, setData] = useState([])
+  // useEffect(() => {
+  //   fetch('https://api.github.com/users/kshitijpatel7')
+  //   .then(response => response.json())
+  //   .then(data => {
+  //     console.log(data);
+  //     setData(data);
+  //   })
+  // }, [])
 
   return (
     <>
